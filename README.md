@@ -19,3 +19,6 @@ Como rodar a aplicação no Python:
     -> s.bind(('localhost', 57224))
 - 4º Alterações **collector.py**:
   - Alterar o server_address = ('localhost', 57224) na linha 23, com as mesmas informações do server.py
+- 5º Abra dois terminais para rodar os códigos
+    - No primeiro terminal rode o código "py server.py"
+    - No segundo terminal rode o "py collector.py" 
