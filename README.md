@@ -1,5 +1,5 @@
 # AplicacaoBosch
-Esta aplicação foi feita na linguagem Python e contém uma pasta com dois arquivos que devem ser rodados em conjunto (server.py e collector.py), segue passo a passo de como aplicar:
+Esta aplicação foi feita na linguagem Python e contém uma pasta chamada "Prog Python" com dois arquivos que devem ser rodados em conjunto (server.py e collector.py), segue passo a passo de como aplicar:
 O servidor de código aberto:
   - Para os dados serem enviados a partir da aplicação, deve-se instalar primeiro o XAMPP que vai ser onde o servidor será rodado
   - Após a instalação, abra o aplicativo, localize os módulos Apache e MySQL, clique no botão "**START**" de ambos
