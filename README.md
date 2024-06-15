@@ -10,12 +10,12 @@ O servidor de código aberto:
   - Após inserir essas informações habilite, todas as caixas de seleção e execute
 
 Como rodar a aplicação no Python:
-1º abra o Visual Studio Code
-2º Aperte Ctrl+ K e abra a pasta dentro do aplicativo
-3º Alterações **server.py**:
+- 1º abra o Visual Studio Code
+- 2º Aperte Ctrl+ K e abra a pasta dentro do aplicativo
+- 3º Alterações **server.py**:
   - Baixar as bibliotecas socket, mysql.connector
   - Alterar os campos host = 'localhost', user = 'usuario', password = '123456', baseando nas informações criadas na criação do usuário, host e senha no phpMyAdmin
   - Ao rodar o server.py no terminal, ele dará as informações "Connected by ('127.0.0.1', 57224)", o segundo número deverá ser aplicado na linha 31
     -> s.bind(('localhost', 57224))
-4º Alterações **collector.py**:
+- 4º Alterações **collector.py**:
   - Alterar o server_address = ('localhost', 57224) na linha 23, com as mesmas informações do server.py
